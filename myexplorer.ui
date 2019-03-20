@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>849</width>
+    <height>254</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyExplorer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="myexplorer.qrc">
+    <normaloff>:/myexplorer/resources/folder.png</normaloff>:/myexplorer/resources/folder.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabFileCopy">
+       <attribute name="title">
+        <string>Copy Files</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>1</width>
+            <height>1</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Destination Path</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="srcDirSel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>1</width>
+            <height>1</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="dstDir">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>5</width>
+            <height>1</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QCheckBox" name="yearOrdering">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>1</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Year Ordering</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>1</width>
+            <height>1</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Source Path</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLineEdit" name="srcDir">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+            <horstretch>4</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>5</width>
+            <height>1</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="dstDirSel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>1</width>
+            <height>1</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="pushButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>2</width>
+            <height>1</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Copy Files</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabSpare">
+       <attribute name="title">
+        <string>Spare</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="myexplorer.qrc"/>
+ </resources>
+ <connections/>
+</ui>

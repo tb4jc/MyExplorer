@@ -1,0 +1,46 @@
+def walk_tree(path):
+    for current_root, directories, file_names in os.walk(path):
+        print(current_root)
+        for directory in directories:
+            print('/%s' % directory)
+        for file in file_names:
+            print('-%s' % file)
+
+
+def walk_tree2(path):
+    path_offset = len(path.split(os.sep))
+    for root, dirs, files in os.walk(path):
+        current_dir = root.split(os.sep)
+        print((len(current_dir) - path_offset) * '---', os.path.basename(root))
+        for file in files:
+            print((len(current_dir) - path_offset + 1) * '---', file)
+
+def scan_tree(path):
+    """Yield directory and file names under given path."""
+    path_offset = len(path.split(os.sep))
+    for entry in os.scandir(path):
+        if entry.is_dir(follow_symlinks=False):
+            current_dir = entry.path.split(os.sep)
+            print((len(current_dir) - path_offset) * '---', entry.name)
+            yield from scan_tree(entry.path)
+        yield entry
+
+
+
+elif test_case == 2:
+    walk_tree(root_dir)
+elif test_case == 3:
+    for filename in glob.glob(root_dir + '\\**\\*', recursive=True):
+        print(filename)
+elif test_case == 3:
+    globIt = glob.iglob(root_dir + '\\**\\*', recursive=True)
+    if globIt is not None:
+        try:
+            while True:
+                filename = next(globIt)
+                print(filename)
+        except StopIteration:
+            pass
+            globIt.close()
+elif test_case == 4:
+    walk_tree2(root_dir)

@@ -1,0 +1,11 @@
+MyExplorer
+
+Features
+1) scan a directory and its subdirectories and generate an Excel workbook with all files
+    - ordered by date and type and alphabet
+    -> one worksheet per year
+    -> one column per type
+    -> column ordered by date
+    
+    
+2) compare two directories 
