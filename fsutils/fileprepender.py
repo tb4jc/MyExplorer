@@ -13,33 +13,50 @@ class FilePrepender(object):
         file.prepend_line('line inserted at first line in file')
         file.append_line('line appended at end of file')
     """
-    def __init__(self, file_path):
+    def __init__(self, file_path, log_func=None):
         """
         Class constructor
         :param file_path: path to the file to open or create
         :type file_path: basestring
         """
+        self.file_path = file_path
+        self.logger = log_func
         self.__write_queue = []
         # Read in the existing file, so we can write it back later
-        if Path(file_path).exists():
+        if Path(self.file_path).exists():
             with open(file_path, mode='r') as fileDesc:
                 self.__write_queue = fileDesc.readlines()
 
-        self.__open_file = open(file_path, mode='w')
+        self.__open_file = open(self.file_path, mode='w')
+
+    def __log__(self, msg):
+        """
+        Local logging function which checks, if logger object is set and then it appends message to it, else
+        it prints out the message to console.
+        :param msg: message
+        :type msg: basestring
+        """
+        if self.logger is not None:
+            self.logger(msg)
+        else:
+            print(msg)
 
     def prepend_line(self, line):
         """
-        Member function to prepend given line in file.
+        Member function to prepend given line in file, if it does not exists already
         :param line:    line inserted at beginning of file
         :type line:     basestring
         :return:        None
         :rtype:         None
         """
-        self.__write_queue.insert(0, "%s\n" % line)
+        if not "%s\n" % line in self.__write_queue:
+            self.__write_queue.insert(0, "%s\n" % line)
+        else:
+            self.__log__('line "%s" already in file "%s"' % (line, self.file_path))
 
     def append_line(self, line):
         """
-        Member function to append given line in containing file.
+        Member function to append given line in containing file, if it does not exists already
         :param line:    line appended at end of file
         :type line:     basestring
         :return:        None
@@ -47,6 +64,8 @@ class FilePrepender(object):
         """
         if not "%s\n" % line in self.__write_queue:
             self.__write_queue.append("%s\n" % line)
+        else:
+            self.__log__('line "%s" already in file "%s"' % (line, self.file_path))
 
     def close(self):
         """
@@ -82,7 +101,12 @@ class FilePrepender(object):
 
 
 if __name__ == '__main__':
-    with FilePrepender('test_d.out') as f:
+
+    def log_test(msg):
+        print(msg)
+
+
+    with FilePrepender('test_d.out', log_test) as f:
         # Must write individual lines in reverse order
         f.prepend_line('This will be line 3')
         f.prepend_line('This will be line 2')

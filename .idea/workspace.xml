@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f274f2d-61db-455d-acea-132d24c14b06" name="Default" comment="" />
+    <list default="true" id="4f274f2d-61db-455d-acea-132d24c14b06" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Thomas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Thomas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsutils/fileprepender.py" beforeDir="false" afterPath="$PROJECT_DIR$/fsutils/fileprepender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsutils/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/fsutils/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myexplorer.py" beforeDir="false" afterPath="$PROJECT_DIR$/myexplorer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myexplorer.ui" beforeDir="false" afterPath="$PROJECT_DIR$/myexplorer.ui" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,27 +17,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>glob</find>
       <find>MainWindow</find>
+      <find>app</find>
+      <find>TCC_SECTION_NAMES</find>
+      <find>tc_config_meta</find>
+      <find>max_options</find>
+      <find>'simple'</find>
+      <find>SECTION_TPYE_SIMPLE</find>
+      <find>printOutConfig</find>
+      <find>section_meta</find>
+      <find>update_configs</find>
+      <find>options</find>
+      <find>'type'</find>
+      <find>cbDstDir</find>
+      <find>get_full_section</find>
+      <find>test_case</find>
+      <find>ext_filter</find>
+      <find>scan_tree</find>
+      <find>log_func</find>
+      <find>log_</find>
+      <find>logging_object</find>
+      <find>logger</find>
+      <find>log_msg</find>
+      <find>output</find>
+      <find>output.append</find>
     </findStrings>
     <replaceStrings>
       <replace>mainWindow</replace>
+      <replace>myexp</replace>
+      <replace>section_names</replace>
+      <replace>config_meta</replace>
+      <replace>'type': 'simple', 'size': 10</replace>
+      <replace>sections_in_file</replace>
+      <replace>size</replace>
+      <replace>BaseIniFile.SECTION_TPYE_SIMPLE</replace>
+      <replace>SECTION_TYPE_SIMPLE</replace>
+      <replace>dialog_options</replace>
+      <replace>BaseIniFile.KEY_TYPE</replace>
+      <replace>handle_cse</replace>
+      <replace>log_func</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/fsutils/prependerfile.py" />
         <option value="$PROJECT_DIR$/fsutils/test_d.out" />
-        <option value="$PROJECT_DIR$/fsutils/fileprepender.py" />
         <option value="$PROJECT_DIR$/fsutils/backup" />
         <option value="$PROJECT_DIR$/myexplorer_de_ch.ts" />
         <option value="$PROJECT_DIR$/myexplorer_ui.py" />
         <option value="$PROJECT_DIR$/fsutils/__init__.py" />
+        <option value="$PROJECT_DIR$/common_ini_file.py" />
+        <option value="$PROJECT_DIR$/base_ini_file.py" />
+        <option value="$PROJECT_DIR$/helpers/base_ini_file.py" />
+        <option value="$PROJECT_DIR$/fsutils/fileprepender.py" />
         <option value="$PROJECT_DIR$/myexplorer.py" />
         <option value="$PROJECT_DIR$/fsutils/functions.py" />
       </list>
@@ -38,9 +87,10 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -59,6 +109,11 @@
               <item name="MyExplorer" type="462c0819:PsiDirectoryNode" />
               <item name="fsutils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyExplorer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -66,6 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ToolsCollector" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -81,7 +137,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.myexplorer">
+  <component name="RunManager" selected="Python.myexplorer with GUI">
+    <configuration name="base_ini_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyExplorer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_ini_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="fileprepender" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyExplorer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +173,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fsutils/fileprepender.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myexplorer with GUI" type="PythonConfigurationType" factoryName="Python">
+      <module name="MyExplorer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myexplorer.py" />
+      <option name="PARAMETERS" value="--gui" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -125,13 +223,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.myexplorer with GUI" />
       <item itemvalue="Python.myexplorer" />
       <item itemvalue="Python.fileprepender" />
+      <item itemvalue="Python.base_ini_file" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.myexplorer" />
         <item itemvalue="Python.fileprepender" />
+        <item itemvalue="Python.base_ini_file" />
+        <item itemvalue="Python.myexplorer" />
       </list>
     </recent_temporary>
   </component>
@@ -151,19 +252,19 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14474554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13284865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32964602" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32964602" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5763384" weight="0.36134455" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3879552" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5763384" weight="0.32633054" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4236616" side_tool="true" weight="0.36834735" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -173,6 +274,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fsutils/fileprepender.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -187,13 +295,6 @@
     <entry file="file://C:/Python36/Lib/argparse.py" />
     <entry file="file://C:/Python36/Lib/glob.py" />
     <entry file="file://$PROJECT_DIR$/fsutils/test_d.out" />
-    <entry file="file://$PROJECT_DIR$/myexplorer_en.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myexplorer_de_ch.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -202,38 +303,10 @@
       </provider>
     </entry>
     <entry file="file://C:/Python36/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/myexplorer.qrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsutils/fileprepender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fsutils/backup">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fsutils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -247,36 +320,96 @@
     <entry file="file://$PROJECT_DIR$/myexplorer.pro">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyExplorer Projekt.txt">
+    <entry file="file://$PROJECT_DIR$/MyExplorer Projekt.txt" />
+    <entry file="file://$PROJECT_DIR$/myexplorer_en.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="374">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myexplorer.qrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fsutils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_ini_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/PyQt5/uic/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/base_ini_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1055577769/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="258" column="4" selection-start-line="258" selection-start-column="4" selection-end-line="258" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myexplorer_ui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="128" column="2" selection-start-line="128" selection-start-column="2" selection-end-line="128" selection-end-column="2" />
+        <state relative-caret-position="2176">
+          <caret line="128" column="2" selection-start-line="128" selection-start-column="2" selection-end-line="128" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myexplorer.py">
+    <entry file="file://$PROJECT_DIR$/fsutils/fileprepender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="143">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fsutils/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        <state relative-caret-position="124">
+          <caret line="134" column="38" selection-start-line="134" selection-start-column="38" selection-end-line="134" selection-end-column="38" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myexplorer_rc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myexplorer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
